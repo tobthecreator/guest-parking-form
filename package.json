@@ -1,0 +1,29 @@
+{
+  "name": "guest-parking-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:vip": "GROUP=vip node -r dotenv/config index.js",
+    "start:dsp": "GROUP=dsp node -r dotenv/config index.js",
+    "start:goons": "GROUP=goons node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobthecreator/guest-parking-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobthecreator/guest-parking-form/issues"
+  },
+  "homepage": "https://github.com/tobthecreator/guest-parking-form#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv-extended": "^2.9.0",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
